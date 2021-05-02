@@ -101,7 +101,7 @@ class Index extends React.Component {
 
   componentDidMount() {
     // CONFIGURE API REST HERE
-    this.getData("http://your_ip_here:1108/api/Stats")
+    this.getData("http://192.168.100.43:1108/api/GetReadings/")
   }
 
   render() {
