@@ -128,7 +128,7 @@ class Sidebar extends React.Component {
           {/* Brand */}
           {logo ? (
             <NavbarBrand className="pt-0" {...navbarBrandProps}>
-              Chicharrón Brand
+              AutoGarden
             </NavbarBrand>
           ) : null}
           {/* User */}

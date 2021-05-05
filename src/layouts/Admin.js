@@ -74,7 +74,7 @@ class Admin extends React.Component {
         <div className="main-content" ref="mainContent">
           <AdminNavbar
             {...this.props}
-            brandText="Chicharrón Brand"
+            brandText="Sistema para monitoreo de jardín Autónomo"
           />
           <Switch>
             {this.getRoutes(routes)}
